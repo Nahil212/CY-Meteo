@@ -1,0 +1,37 @@
+Options :
+
+-f<nom_fichier> c'est une option obligatoire qui prend le fichier d'entrée.
+
+-o<nom_fichier> c'est une option obligatoire qui prend le fichier de sortie.
+ 
+-h Traite les donnée en fonction de l'haltitude.
+
+-t Traite les données en fonction de la température.
+
+-p Traite les données en fonction de la pression atmosphérique.
+
+-w Traite les données en fontion du vent. 
+
+-m Traite les données en fonction de l'humidité.
+
+-d<min> <max> indiquer un intervalle temporel, le format des dates doit etre sous la forme YYYY-MM-DD 
+
+-F Limite la zone geographique à la France métropolitaine et la Corse.
+
+-G Limite la zone geographiquela Guyane française.
+
+-S Limite la zone geographique Saint-Pierre et Miquelon. 
+
+-A Limite la zone geographique aux Antilles.
+
+-O Limite la zone geographique à l'Océan indien.
+
+-Q Limite la zone geographique à l'Antartique.
+
+-r Trie les donnée dans le sens décroissant, (Par défaut Le tri se fait par ordre croissant).
+
+--liste Trie les données à l'aide d'une structure de type liste chainée.
+
+--abr   Trie les données à l'aide d'une structure de type ABR.
+
+--avl   Trie les données à l'aide d'une structure de type AVL, (L'AVL est le tri par défaut).
