@@ -1,0 +1,6 @@
+set title "Diagramme de barres d'erreur pour les températures"
+set xlabel "Identifiant de la station"
+set ylabel "Température (°C)"
+set key outside
+
+plot 'Resultats' using 1:2:3:4 with errorbars title "Minimum et maximum", '' using 1:5 with lines title "Moyenne"
