@@ -1,0 +1,37 @@
+Ce qui marche : 
+
+option -f est fonctionel.
+
+option -o est fonctionel.
+
+option -r est fonctionel.
+
+Le tri par AVL est fontionel mais n'est pas complet.
+
+Le tri par ABR est fonctionel.
+
+Le programme est capable de produire des graphiques en fonction de :
+
+-t1 (températures en mode 1);
+
+-p1 (températures en mode 2);
+
+-h (altitude);
+
+-m (humidité);
+
+
+
+Ce qui ne marche pas :
+
+Le tri en liste chainée n'est pas fonctionnel.
+
+option -t2 p2 ne sont pas disponibles.
+
+option -t3 p3 ne sont pas disponibles;
+
+option -d n'est pas disponible;
+
+option -w n'est pas disponible;
+
+
