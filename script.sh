@@ -309,4 +309,5 @@ else
             ./heatmap2.sh
         fi
     done
+    rm temp.csv
 fi
